@@ -1,0 +1,42 @@
+
+.gallery-area {
+    position: relative;
+    top: 1450px;
+    @media (max-width: 767px) {
+        top: 940px;
+    }
+    .container{
+        .area-title h2 {
+            color: $main-color;
+            display: inline-block;
+            font-family: "Dancing Script", cursive;
+            font-size: 60px;
+            letter-spacing: 2px;
+            line-height: 0.8;
+            margin: 30px 0px 50px 0px;
+            padding: 0 20px 45px;
+            position: relative;
+            text-transform: capitalize;
+            @media (max-width: 767px) {
+                font-size: 40px;
+            }
+            &::after{
+                background: url(/Image/red.png) no-repeat center center;
+                bottom: 0;
+                content: "";
+                height: 30px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+            }
+        }
+        p {
+            text-align: center;
+            font-size: 40px;
+            color: $main-color;
+            @media (max-width: 767px) {
+                font-size: 30px;
+            }
+        }
+    }
+}

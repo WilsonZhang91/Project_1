@@ -1,0 +1,125 @@
+html {
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+    @media (max-width: 376px) {
+        max-width: 375px;
+    }
+    body {
+        color: #555555;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 1.7em;
+        @media (max-width: 376px) {
+            max-width: 375px;
+        }
+        a {
+            text-decoration: none;
+            background-color: transparent;
+            color: white;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+            } 
+        }
+        ul {
+            list-style: outside none none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+        }
+        img[alt="thai-paragon-logo"] {
+            height: 60px;
+            border-radius: 15px;
+        }  
+    }
+}
+@keyframes loader {
+    0% {
+        -webkit-box-shadow: 0 0 0 0px rgba(202, 61, 38, 0);
+        box-shadow: 0 0 0 0px rgba(202, 61, 38, 0);
+    }
+    25% {
+        -webkit-box-shadow: 0 0 0 0px rgba(202, 61, 38, 0.5), 0 0 0 10px rgba(202, 61, 38, 0.4);
+        box-shadow: 0 0 0 0px rgba(202, 61, 38, 0.5), 0 0 0 10px rgba(202, 61, 38, 0.4);
+    }
+    50% {
+        -webkit-box-shadow: 0 0 0 10px rgba(202, 61, 38, 0.5), 0 0 0 20px rgba(202, 61, 38, 0.3);
+        box-shadow: 0 0 0 10px rgba(202, 61, 38, 0.5), 0 0 0 20px rgba(202, 61, 38, 0.3);
+    }
+    75% {
+        -webkit-box-shadow: 0 0 0 10px rgba(202, 61, 38, 0.5), 0 0 0 10px rgba(202, 61, 38, 0.2);
+        box-shadow: 0 0 0 10px rgba(202, 61, 38, 0.5), 0 0 0 10px rgba(202, 61, 38, 0.2);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0px rgba(202, 61, 38, 04);
+        box-shadow: 0 0 0 0px rgba(202, 61, 38, 04);
+    }
+}
+@keyframes fadeout {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.disappear {
+    animation: fadeout 1s forwards ;
+}
+.preloader {
+    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    @media (max-width: 376px) {
+        height: 812px;
+        width: 375px;
+    }
+
+    .preloader-spinner {
+        -webkit-animation: 1.5s linear 0s normal none infinite running loader;
+        animation: 1.5s linear 0s normal none infinite running loader;
+        width: 60px;
+        height: 60px;
+        font-size: 35px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        top: 50%;
+        margin-top: -30px;
+        padding-top: 12px;
+        z-index: 99;
+        background: #1a1a1a;
+        color: $main-color;
+    }
+}
+.scrolltotop {
+    background: $main-color;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 5px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    z-index: 99;
+    bottom: 20px;
+    display: none;
+    &:hover {
+        background-color: #1a1a1a;
+        border: 1px solid;
+    }
+    .fa-long-arrow-up {
+        &:hover {
+            color: white;
+        }
+    }
+}
+.totop {
+    display: block;
+}

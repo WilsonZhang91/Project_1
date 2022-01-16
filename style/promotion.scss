@@ -1,0 +1,229 @@
+.promotion-area {
+    background: url(/Image/IMG_0889.jpg) no-repeat;
+    position: absolute;
+    height: 850px;
+    width: 100%;
+    @media (max-width: 767px) {
+        max-height: 812px;
+        height: 812px;
+        top: 812px;
+    }
+    .filter-img {
+        background: url(/Image/pattarn.png) repeat #000;
+        opacity: 0.6;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }  
+    .container {
+        margin-top: 80px;
+        .area-title h2 {
+            color: $main-color;
+            display: inline-block;
+            font-family: "Dancing Script", cursive;
+            font-size: 60px;
+            letter-spacing: 2px;
+            line-height: 0.8;
+            margin: 0;
+            padding: 0 20px 45px;
+            position: relative;
+            text-transform: capitalize;
+            @media (max-width: 767px) {
+                font-size: 40px;
+                margin-top:-10px;
+            }
+            &::after{
+                background: url(/Image/red.png) no-repeat center center;
+                bottom: 0;
+                content: "";
+                height: 30px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+            }
+        }
+        .carousel-item {
+            &:hover .banquest-set-1{
+                visibility: visible;
+                opacity: 0.8;
+                cursor: pointer;
+            }
+            &:hover .banquest-set-2 {
+                visibility: visible;
+                opacity: 0.8;
+                cursor: pointer;
+            }
+            .set-description {
+                @media (max-width: 767px) {
+                    display: inline-block;
+                    padding: 0px 10px 0px 10px;
+                    box-sizing: border-box;
+                    width: 300px;
+                }
+            }
+        }
+        .banquest-detail {
+            display: flex;
+            justify-content: center;
+            padding-top: 80px;
+            @media (max-width: 767px) {
+                display: flex;
+                flex-direction: column;
+                max-width: 375px;
+                padding-top: 5px;
+                align-items: center;
+            }
+            .banquest-set-1 {
+                @media (max-width: 767px) {
+                    height: 350px;
+                }
+            }
+            .banquest-set-1__details {
+                position: relative;
+                background-color: white;
+                height: fit-content;
+                width: 480px;
+                top: 60px;
+                left: -80px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                padding: 20px;
+                @media (max-width: 767px) {
+                    top: 0;
+                    left: 0px;
+                    font-size: 16px;
+                    padding: 0px;
+                    height: 300px;
+                }
+                h3 {
+                    @media (max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+                h4 {
+                    @media (max-width: 767px) {
+                        font-size: 14px;
+                    }
+                }
+                p {
+                    @media (max-width: 767px) {
+                        font-size: 12px;
+                    }
+                }
+                .banquest-set-1__price {
+                    background: url(/Image/tag.png) no-repeat center center / cover;
+                    width: 100px;
+                    height: 100px;
+                    color: white;
+                    position: absolute;
+                    top: -40px;
+                    left: -60px;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    font-weight: 700;
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+                h3 {
+                    font-weight: 700;
+                }
+                h4 {
+                    font-weight: 500;
+                }
+                .order-now {
+                    background:  none repeat scroll 0 0;
+                    color: $main-color;
+                    border: 1px $main-color solid;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    padding: 5px 40px;
+                    text-transform: uppercase;
+                    &:hover {
+                        background-color: $main-color;
+                        color: white;
+                    }
+                }
+            }
+            .banquest-set-2 {
+                @media (max-width: 767px) {
+                    height: 350px;
+                }
+            }
+            .banquest-set-2__details {
+                position: relative;
+                background-color: white;
+                height: fit-content;
+                width: 480px;
+                top: 60px;
+                left: -80px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                padding: 20px;
+                @media (max-width: 767px) {
+                    top: 0;
+                    left: 0px;
+                    font-size: 16px;
+                    padding: 0px;
+                }
+                h3 {
+                    @media (max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+                h4 {
+                    @media (max-width: 767px) {
+                        font-size: 14px;
+                    }
+                }
+                p {
+                    @media (max-width: 767px) {
+                        font-size: 12px;
+                    }
+                }
+                .banquest-set-2__price {
+                    background: url(/Image/tag.png) no-repeat center center / cover;
+                    width: 100px;
+                    height: 100px;
+                    color: white;
+                    position: absolute;
+                    top: -40px;
+                    left: -60px;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    font-weight: 700;
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+                h3 {
+                    font-weight: 700;
+                }
+                h4 {
+                    font-weight: 500;
+                }
+                .order-now {
+                    background:  none repeat scroll 0 0;
+                    color: $main-color;
+                    border: 1px $main-color solid;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    padding: 5px 40px;
+                    text-transform: uppercase;
+                    &:hover {
+                        background-color: $main-color;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
