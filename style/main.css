@@ -392,7 +392,7 @@ html body img[alt=thai-paragon-logo] {
   border: 0px;
 }
 .top-area .filter-img {
-  background: url(/Image/pattarn.png) repeat #000;
+  background: url("../Image/pattarn.png") repeat #000;
   opacity: 0.6;
   width: 100%;
   height: 100%;
@@ -447,7 +447,7 @@ html body img[alt=thai-paragon-logo] {
 }
 
 .promotion-area {
-  background: url("/Image/IMG_0889.jpg") no-repeat;
+  background: url("../Image/IMG_0889.jpg") no-repeat;
   position: absolute;
   height: 850px;
   width: 100%;
@@ -460,7 +460,7 @@ html body img[alt=thai-paragon-logo] {
   }
 }
 .promotion-area .filter-img {
-  background: url("/Image/pattarn.png") repeat #000;
+  background: url("../Image/pattarn.png") repeat #000;
   opacity: 0.6;
   width: 100%;
   height: 100%;
@@ -488,7 +488,7 @@ html body img[alt=thai-paragon-logo] {
   }
 }
 .promotion-area .container .area-title h2::after {
-  background: url("/Image/red.png") no-repeat center center;
+  background: url("../Image/red.png") no-repeat center center;
   bottom: 0;
   content: "";
   height: 30px;
@@ -571,7 +571,7 @@ html body img[alt=thai-paragon-logo] {
   }
 }
 .promotion-area .container .banquest-detail .banquest-set-1__details .banquest-set-1__price {
-  background: url("/Image/tag.png") no-repeat center center/cover;
+  background: url("../Image/tag.png") no-repeat center center/cover;
   width: 100px;
   height: 100px;
   color: white;
@@ -650,7 +650,7 @@ html body img[alt=thai-paragon-logo] {
   }
 }
 .promotion-area .container .banquest-detail .banquest-set-2__details .banquest-set-2__price {
-  background: url("/Image/tag.png") no-repeat center center/cover;
+  background: url("../Image/tag.png") no-repeat center center/cover;
   width: 100px;
   height: 100px;
   color: white;
@@ -721,7 +721,7 @@ html body img[alt=thai-paragon-logo] {
   }
 }
 .menu-area .container .area-title h2::after {
-  background: url("/Image/red.png") no-repeat center center;
+  background: url("../Image/red.png") no-repeat center center;
   bottom: 0;
   content: "";
   height: 30px;
@@ -859,7 +859,7 @@ html body img[alt=thai-paragon-logo] {
 }
 
 .book-table-area {
-  background: url("/Image/promotions_area_bg_2.jpg") no-repeat;
+  background: url("../Image/promotions_area_bg_2.jpg") no-repeat;
   position: absolute;
   height: 450px;
   width: 100%;
@@ -869,11 +869,11 @@ html body img[alt=thai-paragon-logo] {
   .book-table-area {
     top: 2692px;
     height: 400px;
-    background: url("/Image/promotions_area_bg_2.jpg") no-repeat scroll center center/cover;
+    background: url("../Image/promotions_area_bg_2.jpg") no-repeat scroll center center/cover;
   }
 }
 .book-table-area .filter-img {
-  background: url("/Image/pattarn.png") repeat #000;
+  background: url("../Image/pattarn.png") repeat #000;
   opacity: 0.8;
   width: 100%;
   height: 100%;
@@ -947,7 +947,7 @@ html body img[alt=thai-paragon-logo] {
   }
 }
 .gallery-area .container .area-title h2::after {
-  background: url("/Image/red.png") no-repeat center center;
+  background: url("../Image/red.png") no-repeat center center;
   bottom: 0;
   content: "";
   height: 30px;
@@ -967,7 +967,7 @@ html body img[alt=thai-paragon-logo] {
 }
 
 .footer-area {
-  background: url("/Image/footer_bg_2.jpg") no-repeat;
+  background: url("../Image/footer_bg_2.jpg") no-repeat;
   height: 650px;
   width: 100%;
   position: absolute;
@@ -978,11 +978,11 @@ html body img[alt=thai-paragon-logo] {
 @media (max-width: 767px) {
   .footer-area {
     top: 3300px;
-    background: url("/Image/footer_bg_2.jpg") no-repeat scroll center center/cover;
+    background: url("../Image/footer_bg_2.jpg") no-repeat scroll center center/cover;
   }
 }
 .footer-area .filter-img {
-  background: url("/Image/pattarn.png") repeat #000;
+  background: url("../Image/pattarn.png") repeat #000;
   opacity: 0.8;
   width: 100%;
   height: 100%;
