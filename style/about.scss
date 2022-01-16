@@ -1,11 +1,11 @@
 .about-area {
-    background: url(/Image/home_three_about_bg.png) no-repeat bottom;
+    background: url("/Image/home_three_about_bg.png") no-repeat bottom;
     position: relative;
     width: 100%;
     height: 400px;
     @media (max-width: 767px) {
         top: -230px;
-        background: url(/Image/home_three_about_bg.png) no-repeat scroll center bottom / contain ;
+        background: url("/Image/home_three_about_bg.png") no-repeat scroll center bottom / contain ;
         max-height: 600px;
         max-width: 375px;
         height: 230px;
